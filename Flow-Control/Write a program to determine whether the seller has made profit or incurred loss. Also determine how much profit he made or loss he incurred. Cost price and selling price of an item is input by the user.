@@ -25,9 +25,12 @@ int main()
         loss = costprice - sellingprice;
         cout << "Vendor has made Loss, Ammount of Loss is" << loss << endl ;
     }
-    else {
+    else if (sellingprice>costprice) {
         profit = sellingprice - costprice;
         cout << "Vendor has made profit, Ammount of profit is" << profit <<endl; 
+    }
+    else {
+        cout << "Vendor has made no loss no profit" <<endl; 
     }
     
     
