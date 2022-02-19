@@ -1,0 +1,34 @@
+/******************************************************************************
+
+     Write a program to determine whether the Vendor has made profit or 
+     incurred loss. Also determine how much profit he made or loss 
+     he incurred. Cost price and selling price of an item is input by the user.
+         
+        Code by Junaid Khan
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int sellingprice, costprice, profit, loss ;
+    
+    cout <<"Enter the Cost price of the product"<< endl; 
+    cin >> costprice; 
+    cout << "Enter the Selling Price of the product" << endl;
+    cin  >> sellingprice;
+    
+    if (costprice>sellingprice) {
+        loss = costprice - sellingprice;
+        cout << "Vendor has made Loss, Ammount of Loss is" << loss << endl ;
+    }
+    else {
+        profit = sellingprice - costprice;
+        cout << "Vendor has made profit, Ammount of profit is" << profit <<endl; 
+    }
+    
+    
+}
