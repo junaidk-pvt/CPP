@@ -1,0 +1,31 @@
+/******************************************************************************
+
+     Write a program to check whether a triangle is valid or not, when the 
+     three angles of the triangle are entered by the user.
+         
+        Code by Junaid Khan
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A, B, C ; // Triangle has 3 sides
+    cout << "Enter Angle of A" <<endl;
+    cin >> A;
+    cout << "Enter Angle of B" <<endl;
+    cin >> B;
+    cout << "Enter Angle of C" <<endl;
+    cin >> C;
+    if ( A+B+C == 180 ) {
+        cout <<"It is a valid Triangle"; 
+    }
+    else {
+        cout << "It is not a valid Triangle"; 
+    }
+    
+    
+}
