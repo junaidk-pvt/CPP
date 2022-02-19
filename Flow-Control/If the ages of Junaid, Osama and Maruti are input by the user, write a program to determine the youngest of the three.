@@ -1,0 +1,35 @@
+/******************************************************************************
+
+     If the ages of Junaid, Osama and Maruti are input by the user, 
+     write a program to determine the youngest of the three.
+         
+        Code by Junaid Khan
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int Junaid , Osama , Maruti ;
+    cout << "Enter the age of Junaid";
+    cin >> Junaid;
+    cout << "Enter the age of Osama";
+    cin >> Osama;
+    cout << "Enter the age of Maruti";
+    cin >> Maruti;
+    
+    if ( Junaid < Osama && Junaid < Maruti ) {
+        cout <<"Junaid is youger"; 
+    }
+    else if ( Osama < Junaid && Osama < Maruti){
+        cout <<"Osama is younger";
+    }
+    else {
+        cout << "Maruti is younger"; 
+    }
+    
+    
+}
