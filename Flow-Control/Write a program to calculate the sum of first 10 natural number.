@@ -1,0 +1,20 @@
+/******************************************************************************
+
+    Write a program to calculate the sum of first 10 natural number.
+         
+    Code by Junaid Khan
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int i, sum;
+    for (i=1 ; i <=10; i++) {
+        sum += i ;  
+    }
+    cout << sum;
+}
