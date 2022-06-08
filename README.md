@@ -1,2 +1,2 @@
-# C-with-classes
+# CPP
 C++ Programming Questions Practice 
